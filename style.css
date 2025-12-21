@@ -1,0 +1,64 @@
+/*
+Theme Name: Astra Blueprint
+Template: astra
+Version: 1.0
+*/
+
+/* =========================
+   Variables globales
+   ========================= */
+:root {
+  --bp-container: 1200px;
+  --bp-container-text: 900px;
+  --bp-space: 64px;
+  --bp-radius: 16px;
+}
+
+/* =========================
+   Layout de base
+   ========================= */
+.bp-container {
+  width: min(var(--bp-container), calc(100% - 2rem));
+  margin-inline: auto;
+}
+
+/* =========================
+   Sections
+   ========================= */
+.bp-section {
+  padding: var(--bp-space) 0;
+}
+
+/* =========================
+   Pages standards (lecture)
+   ========================= */
+.bp-page .bp-container {
+  max-width: var(--bp-container-text);
+}
+
+.bp-posts {
+  display: grid;
+  gap: 2rem;
+}
+
+.bp-post-title {
+  margin: 0 0 .5rem;
+}
+
+.bp-post-meta {
+  margin: 0 0 1rem;
+  opacity: .8;
+}
+
+.bp-pagination {
+  margin-top: 2rem;
+}
+
+.bp-page-description {
+    margin-top: .75rem; 
+}
+
+.bp-article-title { margin: 0 0 .5rem; }
+.bp-article-meta { margin: 0 0 2rem; opacity: .8; }
+.bp-article-content > * + * { margin-top: 1rem; }
+.bp-post-nav { margin-top: 3rem; display: flex; justify-content: space-between; gap: 1rem; }
