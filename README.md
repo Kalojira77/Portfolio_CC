@@ -1,56 +1,46 @@
-Blueprint Astra – Process nouveau site
+# Portfolio – Projet Cécile  
+*Travail en cours*
 
+## Présentation du dépôt
 
+Ce dépôt contient le code du **thème enfant Astra** utilisé pour le développement du site de portfolio de Cécile.  
 
-1\. Installer WordPress
+Il inclut notamment :
 
-2\. Installer Astra
+- les fichiers du thème enfant (mise en forme et templates personnalisés)
+- la structure des pages de profil
+- la mise en place de la page de contact et du formulaire
+- la documentation du projet
 
-3\. Installer thème enfant Astra Blueprint
+⚠️ Le dépôt contient **uniquement le code du site** (thème enfant et documentation).  
+Le **contenu du site (pages, textes, médias, formulaires, menus, base WordPress)** est géré directement dans WordPress et n’est pas versionné ici.
 
-4\. Réglages WP :
+---
 
-&nbsp;  - Langue / fuseau
+## Documentation
 
-&nbsp;  - Permaliens
+Deux documents accompagnent ce projet :
 
-&nbsp;  - Page Accueil / Blog
+### Manuel de développement  
+Contient les informations techniques relatives au projet :  
+structure du thème enfant, gestion des templates, transfert de contenu, formulaire de contact, bonnes pratiques, etc.
 
-5\. Créer pages :
+→ Voir :  
+`/docs/manuel-developpement.md`
 
-&nbsp;  - Accueil, Blog, Contact, Mentions, Privacy
+---
 
-6\. Menus :
+### Manuel utilisateur  
+Guide destiné à l’utilisatrice du site pour la gestion du contenu :  
+modifier une page, remplacer une image, utiliser le formulaire de contact, bonnes pratiques d’édition, etc.
 
-&nbsp;  - Menu principal
+→ Voir :  
+`/docs/manuel-utilisateur.md`
 
-&nbsp;  - Menu footer
+---
 
-7\. Plugins (selon besoin) :
+## Statut du projet
 
-&nbsp;  - SEO (Rank Math ou Yoast)
+Le site et la documentation sont **en cours de construction** et évolueront progressivement au fil du développement.
 
-&nbsp;  - Formulaire (Fluent Forms / CF7)
-
-&nbsp;  - SMTP (WP Mail SMTP)
-
-&nbsp;  - Cache (selon hébergement)
-
-&nbsp;  - Sauvegarde
-
-8\. Sécurité :
-
-&nbsp;  - DISALLOW\_FILE\_EDIT dans wp-config.php
-
-&nbsp;  - mots de passe forts
-
-9\. Mise en prod :
-
-&nbsp;  - favicon
-
-&nbsp;  - emails testés
-
-&nbsp;  - indexation OK
-
-
-
+Toute modification importante devra être documentée dans le Manuel de développement.

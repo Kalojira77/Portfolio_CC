@@ -62,3 +62,31 @@ Version: 1.0
 .bp-article-meta { margin: 0 0 2rem; opacity: .8; }
 .bp-article-content > * + * { margin-top: 1rem; }
 .bp-post-nav { margin-top: 3rem; display: flex; justify-content: space-between; gap: 1rem; }
+
+/* =========================
+   Profile page — Photo
+   ========================= */
+
+.bp-profile-photo {
+  float: left;
+  width: 260px;
+  max-width: 45%;
+  margin: 0 1.5rem 1rem 0;
+  border-radius: var(--bp-radius);
+  object-fit: cover;
+}
+
+/* Texte lisible et fluide */
+.bp-page p {
+  line-height: 1.7;
+}
+
+/* Responsive */
+@media(max-width: 700px) {
+  .bp-profile-photo {
+    float: none;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 0 1rem 0;
+  }
+}
