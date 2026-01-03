@@ -1,4 +1,4 @@
-# Portfolio – Projet Cécile  
+# Portfolio – Projet Cécile ⚠️ WIP ⚠️ 
 *Travail en cours*
 
 ## Présentation du dépôt
