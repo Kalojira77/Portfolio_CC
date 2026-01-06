@@ -67,6 +67,7 @@ Version: 1.0
    Profile page — Photo
    ========================= */
 
+/* Portrait recadré */
 .bp-profile-photo {
   float: left;
   width: 260px;
@@ -74,6 +75,27 @@ Version: 1.0
   margin: 0 1.5rem 1rem 0;
   border-radius: var(--bp-radius);
   object-fit: cover;
+}
+
+/* Image originale */
+.bp-photo-natural {
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--bp-radius);
+}
+
+/* Légende de l'image */
+.wp-caption-text {
+  font-size: 0.85em;
+  color: #666;
+  font-style: italic;
+}
+
+.wp-block-image figcaption {
+  text-align: right;
+  font-size: 0.85em;
+  color: #666;
+  font-style: italic;
 }
 
 /* Texte lisible et fluide */
@@ -90,3 +112,4 @@ Version: 1.0
     margin: 0 0 1rem 0;
   }
 }
+
